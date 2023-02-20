@@ -1,11 +1,11 @@
-package net.examplemod;
+package com.bawnorton.archaeologyplus;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 import dev.architectury.platform.Platform;
 
 import java.nio.file.Path;
 
-public class ExampleExpectPlatform {
+public class ArchaeologyPlusExpectPlatform {
     /**
      * We can use {@link Platform#getConfigFolder()} but this is just an example of {@link ExpectPlatform}.
      * <p>
@@ -13,9 +13,9 @@ public class ExampleExpectPlatform {
      * platform sub-package, with its class suffixed with {@code Impl}.
      * <p>
      * Example:
-     * Expect: net.examplemod.ExampleExpectPlatform#getConfigDirectory()
-     * Actual Fabric: net.examplemod.fabric.ExampleExpectPlatformImpl#getConfigDirectory()
-     * Actual Forge: net.examplemod.forge.ExampleExpectPlatformImpl#getConfigDirectory()
+     * Expect: com.bawnorton.archaeologyplus.ArchaeologyPlusExpectPlatform#getConfigDirectory()
+     * Actual Fabric: com.bawnorton.archaeologyplus.fabric.ExampleExpectPlatformImpl#getConfigDirectory()
+     * Actual Forge: com.bawnorton.archaeologyplus.forge.ExampleExpectPlatformImpl#getConfigDirectory()
      * <p>
      * <a href="https://plugins.jetbrains.com/plugin/16210-architectury">You should also get the IntelliJ plugin to help with @ExpectPlatform.</a>
      */
